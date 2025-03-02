@@ -13,11 +13,10 @@ public class Que7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number.");
-        // int n = sc.nextInt();
-        int n = 4;
+        int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            for (int j = n; j > i; j--) {
+            for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
             }
 
@@ -29,7 +28,7 @@ public class Que7 {
         }
 
         for (int i = n; i >= 1; i--) {
-            for (int j = n; j > i; j--) {
+            for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
             }
 
