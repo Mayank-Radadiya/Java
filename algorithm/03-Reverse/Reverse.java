@@ -1,9 +1,8 @@
 import java.util.Arrays;
 
 // swap first and last number and so on...
-
+// 
 public class Reverse {
-
     public static void reverseArray(int arr[]) {
         int first = 0;
         int last = arr.length - 1;
@@ -16,7 +15,6 @@ public class Reverse {
             first++;
             last--;
         }
-
     }
 
     public static void main(String[] args) {
