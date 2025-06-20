@@ -1,4 +1,4 @@
-// Type conversion or Narrow conversion.
+// Type conversion or Narrow conversion
 
 public class TypeCasting {
     public static void main(String[] args) {
