@@ -1,7 +1,7 @@
-// find a value in given array.
-// Time Complexity is =>  O(n)
-
 public class LinearSearch {
+
+    // find a value in given array.
+    // Time Complexity is => O(n)
 
     public static void findValue() {
         int arr1[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
