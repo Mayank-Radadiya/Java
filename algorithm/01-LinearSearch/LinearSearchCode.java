@@ -1,4 +1,4 @@
-public class LinearSearch {
+public class LinearSearchCode {
 
     // find a value in given array.
     // Time Complexity is => O(n)
